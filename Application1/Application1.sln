@@ -9,14 +9,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application1.Tests", "Appli
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Cloud|Any CPU = Debug Cloud|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Debug Cloud|Any CPU.ActiveCfg = Debug|Any CPU
+		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Debug Cloud|Any CPU.Build.0 = Debug|Any CPU
+		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Debug Cloud|Any CPU.Deploy.0 = Debug|Any CPU
 		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21698F53-8B44-4FE0-B13A-FD94A5E9CFDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5C46F0-CB16-4ACF-810D-5B2D1B358274}.Debug Cloud|Any CPU.ActiveCfg = Debug Cloud|Any CPU
+		{7E5C46F0-CB16-4ACF-810D-5B2D1B358274}.Debug Cloud|Any CPU.Build.0 = Debug Cloud|Any CPU
 		{7E5C46F0-CB16-4ACF-810D-5B2D1B358274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7E5C46F0-CB16-4ACF-810D-5B2D1B358274}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E5C46F0-CB16-4ACF-810D-5B2D1B358274}.Release|Any CPU.ActiveCfg = Release|Any CPU
