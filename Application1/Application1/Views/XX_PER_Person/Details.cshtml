@@ -1,0 +1,50 @@
+﻿@model Application1.Models.XX_PER_Person
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-6">
+        <h4>Persona</h4>
+      
+
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Cedula)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Cedula)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Telefono)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Direccion)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Direccion)
+                </dd>
+
+            </dl>
+
+        </div>
+    </div>
+
